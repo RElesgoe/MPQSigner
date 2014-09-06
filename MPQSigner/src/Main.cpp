@@ -90,7 +90,7 @@ int main(int argc, char* args[])
 		//filename with mpq extension
 		snprintf(newMPQname, 256, "%s.mpq", shortfilename);
 
-		if (SFileCreateArchive(newMPQname, MPQ_CREATE_ARCHIVE_V1 | MPQ_CREATE_ATTRIBUTES | MPQ_CREATE_SIGNATURE, HASH_TABLE_SIZE_DEFAULT, &tempMPQ) == true)
+		if (SFileCreateArchive(newMPQname, MPQ_CREATE_ARCHIVE_V1 | MPQ_CREATE_ATTRIBUTES | MPQ_CREATE_SIGNATURE, HASH_TABLE_SIZE_MIN, &tempMPQ) == true)
 		{
 			cout << "Created archive " << newMPQname << endl;
 			if (SFileAddFileEx(tempMPQ, args[1], args[1], MPQ_FILE_COMPRESS | MPQ_FILE_SECTOR_CRC, MPQ_COMPRESSION_ZLIB, MPQ_COMPRESSION_NEXT_SAME) == true)
@@ -117,7 +117,7 @@ int main(int argc, char* args[])
 		snprintf(newMPQname, 256, "%s.mpq", args[1]);
 
 		//copy and pasted because i'm too lazy
-		if (SFileCreateArchive(newMPQname, MPQ_CREATE_ARCHIVE_V1 | MPQ_CREATE_ATTRIBUTES | MPQ_CREATE_SIGNATURE, HASH_TABLE_SIZE_DEFAULT, &tempMPQ) == true)
+		if (SFileCreateArchive(newMPQname, MPQ_CREATE_ARCHIVE_V1 | MPQ_CREATE_ATTRIBUTES | MPQ_CREATE_SIGNATURE, HASH_TABLE_SIZE_MIN, &tempMPQ) == true)
 		{
 			cout << "Created archive " << newMPQname << endl;
 			if (SFileAddFileEx(tempMPQ, args[1], args[1], MPQ_FILE_COMPRESS | MPQ_FILE_SECTOR_CRC, MPQ_COMPRESSION_ZLIB, MPQ_COMPRESSION_NEXT_SAME) == true)
