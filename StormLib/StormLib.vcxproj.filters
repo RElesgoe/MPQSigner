@@ -69,12 +69,34 @@
     <Text Include="doc\History.txt">
       <Filter>Doc Files</Filter>
     </Text>
-    <Text Include="doc\The MoPaQ File Format 0.9.txt">
-      <Filter>Doc Files</Filter>
-    </Text>
     <Text Include="doc\The MoPaQ File Format 1.0.txt">
       <Filter>Doc Files</Filter>
     </Text>
+    <Text Include="doc\d3-authenticationcode\d3-authenticationcode-deDE.txt" />
+    <Text Include="doc\d3-authenticationcode\d3-authenticationcode-enGB.txt" />
+    <Text Include="doc\d3-authenticationcode\d3-authenticationcode-enSG.txt" />
+    <Text Include="doc\d3-authenticationcode\d3-authenticationcode-enUS.txt" />
+    <Text Include="doc\d3-authenticationcode\d3-authenticationcode-esES.txt" />
+    <Text Include="doc\d3-authenticationcode\d3-authenticationcode-esMX.txt" />
+    <Text Include="doc\d3-authenticationcode\d3-authenticationcode-frFR.txt" />
+    <Text Include="doc\d3-authenticationcode\d3-authenticationcode-itIT.txt" />
+    <Text Include="doc\d3-authenticationcode\d3-authenticationcode-koKR.txt" />
+    <Text Include="doc\d3-authenticationcode\d3-authenticationcode-plPL.txt" />
+    <Text Include="doc\d3-authenticationcode\d3-authenticationcode-ptBR.txt" />
+    <Text Include="doc\d3-authenticationcode\d3-authenticationcode-zhTW.txt" />
+    <Text Include="doc\hots-authenticationcode\hots-authenticationcode-bgdl.txt" />
+    <Text Include="doc\sc2-authenticationcode\sc2-authenticationcode-deDE.txt" />
+    <Text Include="doc\sc2-authenticationcode\sc2-authenticationcode-enGB.txt" />
+    <Text Include="doc\sc2-authenticationcode\sc2-authenticationcode-enUS.txt" />
+    <Text Include="doc\sc2-authenticationcode\sc2-authenticationcode-esES.txt" />
+    <Text Include="doc\sc2-authenticationcode\sc2-authenticationcode-esMX.txt" />
+    <Text Include="doc\sc2-authenticationcode\sc2-authenticationcode-frFR.txt" />
+    <Text Include="doc\sc2-authenticationcode\sc2-authenticationcode-itIT.txt" />
+    <Text Include="doc\sc2-authenticationcode\sc2-authenticationcode-koKR.txt" />
+    <Text Include="doc\sc2-authenticationcode\sc2-authenticationcode-plPL.txt" />
+    <Text Include="doc\sc2-authenticationcode\sc2-authenticationcode-ptBR.txt" />
+    <Text Include="doc\sc2-authenticationcode\sc2-authenticationcode-ruRU.txt" />
+    <Text Include="doc\sc2-authenticationcode\sc2-authenticationcode-zhTW.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\StormCommon.h">
