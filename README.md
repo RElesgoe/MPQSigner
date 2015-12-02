@@ -1,6 +1,16 @@
 MPQSigner
 =========
 
-Signs MPQ files with a Blizzard Weak Digital Signature
+MPQSigner is a program to sign MPQ files with a Blizzard Weak Digital Signature for use with classic Blizzard games that uses this signature for authentication. [StormLib](https://github.com/ladislav-zezula/StormLib) is used by MPQSigner to handle MPQ files.
 
-<a href='https://pledgie.com/campaigns/30143'><img alt='Click here to lend your support to: xboi209&#x27;s Github and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/30143.png?skin_name=chrome' border='0' ></a>
+Binaries
+=========
+Pre-compiled binaries are available on the [Releases](https://github.com/xboi209/MPQSigner/releases) page.
+
+Compiling
+=========
+Visual Studio 2015 is required to compile this project
+
+License
+=========
+MPQSigner is licensed under the [ISC license](https://opensource.org/licenses/ISC) and StormLib is licensed under the [MIT license](https://opensource.org/licenses/MIT).
